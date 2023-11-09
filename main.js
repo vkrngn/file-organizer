@@ -1,6 +1,7 @@
 // Entry-Point
 // importing help function from commands folder
 let helpFunction = require("./commands/help");
+let organizeFunction = require("./commands/organize");
 
 let inputArr = process.argv.slice(2); // takes input and slice the first 2 keyword i.e (node main.js)
 let command = inputArr[0];
@@ -12,6 +13,7 @@ switch (command) {
     break;
   case "organize":
     // call organize function
+    organizeFunction.organize();
     break;
   case "help":
     // call help function
