@@ -2,10 +2,10 @@
 
 It is used to organize and view the content of a given path in the terminal
 
-General Syntax:
-node main.js [options] [filepaths]
-option to see all the command available (help)
-option to organize a given path (organize)
+General Syntax: <br>
+node main.js [options] [filepaths]<br>
+option to see all the command available (help)<br>
+option to organize a given path (organize)<br>
 option to see all the content of a given path (tree)
 
 **Commands:**
