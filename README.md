@@ -2,7 +2,7 @@
 
 It is used to organize and view the content of a given path in the terminal
 
-General Syntax: <br>
+**General Syntax:** <br>
 node main.js [options] [filepaths]<br>
 option to see all the command available (help)<br>
 option to organize a given path (organize)<br>
