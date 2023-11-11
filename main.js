@@ -10,10 +10,11 @@ let path = inputArr[1];
 switch (command) {
   case "tree":
     // call tree function
+
     break;
   case "organize":
     // call organize function
-    organizeFunction.organize();
+    organizeFunction.organize(path);
     break;
   case "help":
     // call help function
